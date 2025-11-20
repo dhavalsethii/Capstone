@@ -1,0 +1,42 @@
+div{
+    background-color: white;
+    margin-top: 160px;
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    padding: 80px 40px;
+    font-weight: bold;
+}
+body{
+    background-color: rgba(191, 194, 196, 0.338);
+}
+h1{
+    top: 300px;
+}
+span{
+    color: rgb(54, 108, 208);
+    cursor: pointer;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+button{
+    background-color: rgb(38, 53, 193);
+    border: none;
+    width: 300px;
+    height: 30px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+img{
+    position: absolute;
+    top: 160px;
+    left: 700px;
+    width: 500px;
+    height: 562px;
+}
+button:hover{
+    background-color:rgb(28, 122, 237) ;
+}

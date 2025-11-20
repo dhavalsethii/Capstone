@@ -1,0 +1,174 @@
+body{
+   margin: 0;
+    background-color: #000;
+    font-family: Arial;
+}
+
+
+h1{
+    font-family: 'Pacifico', cursive;
+    display: block;
+    width: 120px;
+    color: white;
+    position: fixed;
+    top: 2px;
+    font-size: 35px;
+    
+}
+.sidebar li {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 5px;
+    cursor: pointer;
+    color: #2d2525;
+    transition: 0.2s;
+    position: relative;
+    font-size: 1.096rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#side{
+  background-color: rgba(168, 166, 168, 0.794);
+  border-right: 1px solid;
+  height: 760px;
+  position: fixed;
+  top: 90px;
+}
+#whole{
+    border-top: 1px solid;
+    margin: 0px;
+}
+
+.sidebar ul{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+}
+.fa-house{
+    font-size: 1.5rem;
+    top: 108px;
+    position: absolute;
+}
+.fa-envelope{
+    font-size: 1.5rem;
+    top:333px;
+    position: absolute;
+}
+.fa-user-group{
+    font-size: 1.5rem;
+    top: 245px;
+    position: absolute;
+}
+.fa-bookmark{
+    font-size: 1.5rem;
+    top: 290px;
+    position: absolute;
+}
+.fa-gear{
+    font-size: 1.5rem;
+    top: 375px;
+    position: absolute;
+}
+.fa-cubes{
+    font-size: 1.5rem;
+    top: 158px;
+    position: absolute;
+}
+.fa-shapes{
+    font-size: 1.5rem;
+    top: 200px;
+    position: absolute;
+}
+.icon{
+    top:-10px;
+    position: fixed;
+}
+a {
+    text-decoration: none;   
+    color: inherit;          
+}
+.hel {
+  font-size: 20px;
+  background-color: #0077b6;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  left: 1350px;
+  position: fixed;
+  top: 20px;
+}
+
+.hel:hover {
+  background-color: #0096c7;
+}
+.com{
+    position: relative;
+    margin-left: 300px;
+    width: 600px;
+    color: white;
+    top: 100px;
+}
+.search-bar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  width: 60%;
+  max-width: 500px;
+  background-color: #000000;
+  border-radius: 30px;
+  padding: 5px 15px;
+  box-shadow: 0 0 8px rgba(96, 93, 93, 0.15);
+  top: 7px;
+  margin-left: 450px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: #20202053;
+  color: white;
+}
+.search-bar button {
+  border: none;
+  background: #0077b6;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+hr{
+    width: 1000px;
+    border: 1px solid rgb(51, 51, 57);
+} 
+.he{
+    display: grid;
+    background-color: #e2ecf2;
+    grid-template-columns: repeat(3,1fr);
+    color: black;
+}
+.sidebar li:hover{
+    background: linear-gradient(45deg,
+    #347f96,
+    #242c89);
+    font-size: 20px;
+    border-radius: 5px;
+}
+

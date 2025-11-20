@@ -1,0 +1,163 @@
+body{
+   margin: 0;
+    background-color: #000; /* your original */
+    font-family: Arial;
+}
+
+
+h1{
+    font-family: 'Pacifico', cursive;
+    display: block;
+    width: 120px;
+    color: white;
+    position: fixed;
+    top: 2px;
+    font-size: 35px;
+    
+}
+.sidebar li {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 5px;
+    cursor: pointer;
+    color: #2d2525;
+    transition: 0.2s;
+    position: relative;
+    font-size: 1.096rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sidebar li:hover{
+    background: linear-gradient(45deg,
+    #347f96,
+    #242c89);
+    font-size: 20px;
+    border-radius: 5px;
+}
+#side{
+  background-color: rgba(168, 166, 168, 0.794);
+  border-right: 1px solid;
+  height: 760px;
+  position: fixed;
+  top: 90px;
+}
+#whole{
+    border-top: 1px solid;
+    margin: 0px;
+    display: flex;
+}
+
+.sidebar ul{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+}
+.fa-house{
+    font-size: 1.5rem;
+    top: 108px;
+    position: absolute;
+}
+.fa-envelope{
+    font-size: 1.5rem;
+    top:333px;
+    position: absolute;
+}
+.fa-user-group{
+    font-size: 1.5rem;
+    top: 245px;
+    position: absolute;
+}
+.fa-bookmark{
+    font-size: 1.5rem;
+    top: 290px;
+    position: absolute;
+}
+.fa-gear{
+    font-size: 1.5rem;
+    top: 375px;
+    position: absolute;
+}
+.fa-cubes{
+    font-size: 1.5rem;
+    top: 158px;
+    position: absolute;
+}
+.fa-shapes{
+    font-size: 1.5rem;
+    top: 200px;
+    position: absolute;
+}
+.hel {
+  font-size: 20px;
+  background-color: #0077b6;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  left: 1350px;
+  position: fixed;
+  top: 20px;
+}
+
+.hel:hover {
+  background-color: #0096c7;
+}
+img{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    margin-right: 10px;
+    border-radius: 12px;
+    display: flex;
+    right: 20px;
+}
+.gta{
+    margin-left: 60px;
+}
+.photo{
+    position: relative;
+    display: flex;
+    right: 00px;
+    left: 180px;
+    top: 100px;
+}
+h3{
+    color: aliceblue;
+}
+.content{
+    top: 200px;
+    position: relative;
+    left: -810px;
+    height: auto;
+}
+.im{
+    height: 700px;
+    width: 940px;
+    top: 80px;
+    position: relative;
+}
+hr{
+    background-color: #8ec90e;
+    margin-top: 15px;
+}
+.content{
+    right: 1000px;
+}
+.icon{
+    top:-10px;
+    position: fixed;
+}
+a {
+    text-decoration: none;   
+    color: inherit;          
+}
+
