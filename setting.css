@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(0, 0, 0, 0.428);
+}
+#AS{
+    width: 350px;
+    margin-top: 20;
+    padding: 0;
+}
+.p1{
+    color:rgba(154, 122, 84, 0.649);
+
+}
+.cont{
+    background-color: white;
+}
+body {
+  background-color: #f9f6f0;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  width: 750px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.info-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+label span {
+  color: red;
+}
+
+input,
+select {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #fdfdfd;
+  transition: border-color 0.2s;
+}
+
+input:focus,
+select:focus {
+  border-color: #bca77e;
+  outline: none;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag {
+  font-size: 20px;
+}
+.pi{
+    font-size: 20px;
+    color: #ddd;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.he {
+  text-align: center;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 17px;
+  top: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  left: 10px;
+}
+button{
+    width: 100px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(166, 151, 97);
+    cursor: pointer;
+}
